@@ -26,6 +26,21 @@ html, body {
     rgb(176, 190, 245), rgb(162, 173, 243), rgb(147, 166, 241),
     rgb(139, 153, 243), rgb(128, 143, 241), rgb(110, 127, 239),
     rgb(94, 113, 239), rgb(85, 106, 241), rgb(76, 98, 243));
+    overflow: scroll;
+}
+
+button {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-direction: column;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
 .lead {
@@ -42,6 +57,7 @@ html, body {
 }
 
 .header-bar {
+    top: 2rem;
     position: relative;
     width: 50%;
     min-width: 300px;
@@ -130,6 +146,7 @@ html, body {
 
 
 .container {
+    top: 2rem;
     position: relative;
     font-family: 'Poppins', sans-serif;
     border-radius: 5rem;
