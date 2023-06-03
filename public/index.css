@@ -1,0 +1,200 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Flow+Rounded&family=Poppins:wght@300;700&family=Redacted&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap');
+
+/*
+
+font-family: 'Flow Circular', cursive;
+font-family: 'Flow Rounded', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Redacted', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Quicksand', sans-serif;
+
+*/
+
+
+/* Events */
+
+
+.events-container {
+    /*flex-direction: row;*/
+}
+
+
+/* Header */
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom right,
+    rgb(199, 207, 246), rgb(191, 204, 246), rgb(187, 197, 245),
+    rgb(176, 190, 245), rgb(162, 173, 243), rgb(147, 166, 241),
+    rgb(139, 153, 243), rgb(128, 143, 241), rgb(110, 127, 239),
+    rgb(94, 113, 239), rgb(85, 106, 241), rgb(76, 98, 243));
+}
+
+.lead {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-direction: column;
+    color: #fff;
+}
+
+.header-bar {
+    position: relative;
+    width: 50%;
+    min-width: 300px;
+    height: 50px;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
+    /*box-shadow: -2px -2px 0px rgba(0, 0, 0, 0.25) inset;*/
+    border-radius: 1rem;
+}
+
+/*.header-bar::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: -10px;*/
+/*    right: -10px;*/
+/*    width: 30%;*/
+/*    height: 49px;*/
+/*    border: 10px solid transparent;*/
+/*    border-bottom: 10px solid #fffa;*/
+/*    border-right: 10px solid #fffa;*/
+/*    transition: 0.3s linear all;*/
+/*    border-top-right-radius: 1rem;*/
+/*    border-bottom-right-radius: 1rem;*/
+/*}*/
+
+.header-bar > .logo {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 10px;
+    transform: translateY(-50%);
+    color: #fffc;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+    user-select: none;
+}
+
+.slider-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.slider-menu > li {
+    display: inline-flex;
+    padding: 14px;
+    margin-left: 2px;
+    font-family: 'Quicksand', sans-serif;
+    color: #bdcefc;
+    cursor: pointer;
+    transition: 0.3s linear all;
+    user-select: none;
+}
+
+.slider-menu > li:hover {
+    color: #e1e8fa;
+    /*box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;*/
+}
+
+.aeu-signature {
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 15px;
+    line-height: 30px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.aeu-signature {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.aeu-signature > img {
+    height: 30px;
+}
+
+
+/* Event Container */
+
+
+.container {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 66%;
+    min-width: 34%;
+}
+
+.container .box {
+    margin: 1rem;
+    max-width: 52%;
+    min-width: 34%;
+    height: fit-content;
+    padding: 1.5rem;
+    background: transparent;
+    /*border: 1px solid rgba(255, 255, 255, 0.222);*/
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: .7rem;
+    transition: all ease .3s;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box .title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .1em
+}
+
+.container .box div strong {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.container .box div p {
+    margin: 0;
+    font-size: .9em;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+
+.container .box div span {
+    font-size: .7rem;
+    font-weight: 300;
+}
+
+.container .box div span:nth-child(3) {
+    font-weight: 500;
+    margin-right: .2rem;
+}
+
+.container .box:hover {
+    background-color: rgba(255, 255, 255, 0.074);
+
+    box-shadow: 0px 0px 0px 0px rgba(243, 216, 190, 0.25);
+    /*border: 1px solid rgba(255, 255, 255, 0.454);*/
+}
