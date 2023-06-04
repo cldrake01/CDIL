@@ -3,29 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Flow+Rounded&family=Poppins:wght@300;700&family=Redacted&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap');
 
-/*
-
-font-family: 'Flow Circular', cursive;
-font-family: 'Flow Rounded', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Redacted', cursive;
-font-family: 'Righteous', cursive;
-font-family: 'Quicksand', sans-serif;
-
-*/
-
-
 /* Header */
-
 
 html, body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(to bottom right,
-    rgb(199, 207, 246), rgb(191, 204, 246), rgb(187, 197, 245),
-    rgb(176, 190, 245), rgb(162, 173, 243), rgb(147, 166, 241),
-    rgb(139, 153, 243), rgb(128, 143, 241), rgb(110, 127, 239),
-    rgb(94, 113, 239), rgb(85, 106, 241), rgb(76, 98, 243));
+    background-image: linear-gradient(to bottom right, rgb(199, 207, 246), rgb(191, 204, 246), rgb(187, 197, 245), rgb(176, 190, 245), rgb(162, 173, 243), rgb(147, 166, 241), rgb(139, 153, 243), rgb(128, 143, 241), rgb(110, 127, 239), rgb(94, 113, 239), rgb(85, 106, 241), rgb(76, 98, 243));
     overflow: scroll;
 }
 
@@ -38,8 +21,6 @@ html, body {
 }
 
 .header-bar {
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     z-index: 1;
     position: sticky;
     min-height: 3rem;
@@ -51,6 +32,8 @@ html, body {
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
     /*box-shadow: -2px -2px 0px rgba(0, 0, 0, 0.25) inset;*/
     border-radius: 1rem;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .header-bar > .logo {
@@ -134,9 +117,6 @@ html, body {
     padding: 5px 10px;
     border-radius: 25px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-}
-
-.aeu-signature {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -144,12 +124,9 @@ html, body {
     height: 30px;
 }
 
-
 /* Event Container */
 
-
 .container {
-    /*top: 2rem;*/
     position: relative;
     font-family: 'Poppins', sans-serif;
     border-radius: 5rem;
@@ -240,7 +217,6 @@ html, body {
 .container .box textarea::placeholder:hover {
     color: #ffffff;
 }
-
 
 .container .box button {
     margin-top: 1rem;
