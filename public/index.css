@@ -116,7 +116,6 @@ html, body {
     color: #ffffff;;
     background-color: rgba(255, 255, 255, 0.074);
     box-shadow: none;
-    border-radius: 0.5rem;
 }
 
 .slider-menu > li > img {
@@ -164,7 +163,7 @@ html, body {
 
 .container .box {
     margin-top: 1rem;
-    max-width: 52%;
+    max-width: 50%;
     min-width: 34%;
     height: fit-content;
     padding: 1.5rem;
@@ -200,6 +199,55 @@ html, body {
 .container .box div span {
     font-size: .7rem;
     font-weight: 300;
+}
+
+.container .box input,
+.container .box textarea {
+    resize: none;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #bdcefc;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.container .box input::placeholder,
+.container .box textarea::placeholder {
+    color: #bdcefc;
+}
+
+.container .box input:hover,
+.container .box textarea:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.074);
+    box-shadow: none;
+}
+
+
+.container .box button {
+    max-width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #bdcefc;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.container .box div button:hover {
+    color: #ffffff;;
+    background-color: rgba(255, 255, 255, 0.074);
+    box-shadow: none;
+    border-radius: 0.5rem;
 }
 
 .container .box div span:nth-child(3) {
