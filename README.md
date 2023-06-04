@@ -1,8 +1,6 @@
 # CDIL
-___
 #### Connect Digital Inclusion Labs serves the community 
-#### by charitably providing tech help to both young and old. 
-___
+#### by charitably providing tech help to both young and old.
 
 ## Important Links & Commands
 
