@@ -78,23 +78,25 @@
         </div>
     </div>
     <div class="container" id="contact" style="margin-top: 6rem; justify-content: center">
-        <div class="box" style="min-width: 100%">
+        <div class="box" style="max-width: 100%">
             <span class="title">Contact</span>
-            <form action="" style="min-width: 100%; margin-top: 1rem;">
+            <strong>You can also reach us at: eevazquez01@bvsd.org, collinlindendrake@gmail.com</strong>
+            <form action="https://getform.io/f/9d155ccf-332c-4cec-9331-7337e95941c6" method="POST">
                 <label>
-                    <input type="text" name="firstname" placeholder="Name">
+                    <input type="text" name="name" placeholder="Name">
                 </label>
-                <br>
-                <label for="email">
-                    <input type="text" id="email" name="email" placeholder="Email">
+                <label>
+                    <input type="email" name="email" placeholder="Email">
                 </label>
-                <br>
-                <br>
-                <label for="subject">
-                    <textarea id="subject" name="subject" placeholder="Message" style="height: 10rem;"></textarea>
+                <label>
+                    <input type="text" name="message" placeholder="Message" style="min-height: 10rem">
                 </label>
-                <br>
-                <button value="submit">Submit</button>
+                <!-- add hidden Honeypot input to prevent spams -->
+                <input type="hidden" name="_gotcha" style="display:none !important">
+                <!-- checkbox handle -->
+<!--                <input type="checkbox" name="subscribe" value="yes" checked>-->
+<!--                <input type="hidden" name="subscribe" value="no">-->
+                <button type="submit">Send</button>
             </form>
         </div>
     </div>

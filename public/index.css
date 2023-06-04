@@ -89,6 +89,7 @@ html, body {
 .slider-menu > li > a {
     color: #bdcefc;
     text-decoration: none;
+    transition: all ease .3s;
 }
 
 .slider-menu > li > a:hover {
@@ -105,6 +106,7 @@ html, body {
     background-color: transparent;
     border-color: transparent;
     border-radius: 0.5rem;
+    transition: all ease .3s;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
@@ -202,6 +204,7 @@ html, body {
 .container .box input,
 .container .box textarea,
 .container .box select {
+    margin-top: 1rem;
     resize: none;
     font-family: 'Quicksand', sans-serif;
     width: 96%;
@@ -219,8 +222,7 @@ html, body {
 }
 
 .container .box input:hover,
-.container .box textarea:hover,
-.container .box input:focus {
+.container .box textarea:hover {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.074);
     box-shadow: none;
@@ -241,6 +243,7 @@ html, body {
 
 
 .container .box button {
+    margin-top: 1rem;
     max-width: 100%;
     font-family: 'Quicksand', sans-serif;
     height: fit-content;
