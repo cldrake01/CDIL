@@ -159,8 +159,6 @@ html, body {
 
 .container .box {
     margin-top: 1rem;
-    max-width: 50%;
-    min-width: 34%;
     height: fit-content;
     padding: 1.5rem;
     background: transparent;
@@ -206,7 +204,7 @@ html, body {
 .container .box select {
     resize: none;
     font-family: 'Quicksand', sans-serif;
-    width: 100%;
+    width: 96%;
     height: fit-content;
     display: flex;
     align-items: center;
