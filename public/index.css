@@ -42,6 +42,7 @@ html, body {
 }
 
 .header-bar {
+    backdrop-filter: blur(4px);
     z-index: 1;
     position: sticky;
     min-height: 3rem;
