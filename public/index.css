@@ -29,62 +29,35 @@ html, body {
     overflow: scroll;
 }
 
-button {
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    /*justify-content: center;*/
-    flex-direction: column;
-    color: #fff;
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 0.5rem;
-    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
-}
-
 .lead {
     font-family: 'Quicksand', sans-serif;
 }
 
 .header-container {
-    height: 100%;
     display: flex;
     align-items: center;
-    /*justify-content: center;*/
+    justify-content: center;
     flex-direction: column;
     color: #fff;
 }
 
 .header-bar {
-    top: 2rem;
-    position: relative;
-    width: 50%;
-    min-width: 300px;
-    height: 50px;
+    z-index: 1;
+    position: sticky;
+    min-height: 3rem;
+    top: 4rem;
+    margin-bottom: 2rem;
+    width: 75%;
+    min-width: 20rem;
+    height: 2rem;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
     /*box-shadow: -2px -2px 0px rgba(0, 0, 0, 0.25) inset;*/
     border-radius: 1rem;
 }
 
-/*.header-bar::after {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    top: -10px;*/
-/*    right: -10px;*/
-/*    width: 30%;*/
-/*    height: 49px;*/
-/*    border: 10px solid transparent;*/
-/*    border-bottom: 10px solid #fffa;*/
-/*    border-right: 10px solid #fffa;*/
-/*    transition: 0.3s linear all;*/
-/*    border-top-right-radius: 1rem;*/
-/*    border-bottom-right-radius: 1rem;*/
-/*}*/
-
 .header-bar > .logo {
     position: absolute;
-    top: calc(50% - 20px);
+    top: 2px;
     left: 10px;
     transform: translateY(-50%);
     color: #fffc;
@@ -115,8 +88,35 @@ button {
     user-select: none;
 }
 
+.slider-menu > li > button {
+    font-family: 'Quicksand', sans-serif;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #bdcefc;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.slider-menu > li > button:hover {
+    color: #ffffff;;
+    background-color: rgba(255, 255, 255, 0.074);
+    box-shadow: none;
+    border-radius: 0.5rem;
+}
+
+.slider-menu > li > img {
+    border-radius: 0.5rem;
+    opacity: 75%;
+    max-width: 100%;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
 .slider-menu > li:hover {
-    color: #e1e8fa;
+    color: #ffffff;
     /*box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;*/
 }
 
@@ -203,7 +203,12 @@ button {
 
 .container .box:hover {
     background-color: rgba(255, 255, 255, 0.074);
+    box-shadow: none;
+}
 
-    box-shadow: 0px 0px 0px 0px rgba(243, 216, 190, 0.25);
-    /*border: 1px solid rgba(255, 255, 255, 0.454);*/
+.container .box img {
+    border-radius: 1rem;
+    opacity: 75%;
+    max-width: 100%;
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
 }
