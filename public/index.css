@@ -88,6 +88,15 @@ html, body {
     user-select: none;
 }
 
+.slider-menu > li > a {
+    color: #bdcefc;
+    text-decoration: none;
+}
+
+.slider-menu > li > a:hover {
+    color: #ffffff;
+}
+
 .slider-menu > li > button {
     font-family: 'Quicksand', sans-serif;
     height: fit-content;
@@ -113,11 +122,6 @@ html, body {
     opacity: 75%;
     max-width: 100%;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
-}
-
-.slider-menu > li:hover {
-    color: #ffffff;
-    /*box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;*/
 }
 
 .aeu-signature {
