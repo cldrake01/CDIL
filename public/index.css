@@ -302,17 +302,23 @@ html, body {
 /*}*/
 
 .slider {
-    border-radius: 1rem;
+    /*border-radius: 1rem;*/
     background: transparent;
-    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
+    /*box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);*/
     overflow: hidden;
     position: relative;
     transition: all ease .3s;
+    -webkit-animation: scroll 20s linear infinite;
+    animation: scroll 20s linear infinite;
+    display: flex;
 }
 
 .slider:hover {
-    background-color: rgba(255, 255, 255, 0.074);
-    box-shadow: none;
+
+}
+
+.slider img {
+    width: 400px;
 }
 
 .slider::before, .slider::after {
