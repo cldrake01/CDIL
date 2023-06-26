@@ -10,6 +10,7 @@ html, body {
     margin: 0;
     background-image: linear-gradient(to bottom right, rgb(199, 207, 246), rgb(191, 204, 246), rgb(187, 197, 245), rgb(176, 190, 245), rgb(162, 173, 243), rgb(147, 166, 241), rgb(139, 153, 243), rgb(128, 143, 241), rgb(110, 127, 239), rgb(94, 113, 239), rgb(85, 106, 241), rgb(76, 98, 243));
     overflow: scroll;
+    color: #bdcefc;
 }
 
 .header-container {
