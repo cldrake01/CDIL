@@ -8,7 +8,8 @@
 html, body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(to bottom right, rgb(199, 207, 246), rgb(191, 204, 246), rgb(187, 197, 245), rgb(176, 190, 245), rgb(162, 173, 243), rgb(147, 166, 241), rgb(139, 153, 243), rgb(128, 143, 241), rgb(110, 127, 239), rgb(94, 113, 239), rgb(85, 106, 241), rgb(76, 98, 243));
+    /*background-image: linear-gradient(to bottom right, rgb(199, 207, 246), rgb(191, 204, 246), rgb(187, 197, 245), rgb(176, 190, 245), rgb(162, 173, 243), rgb(147, 166, 241), rgb(139, 153, 243), rgb(128, 143, 241), rgb(110, 127, 239), rgb(94, 113, 239), rgb(85, 106, 241), rgb(76, 98, 243));*/
+    background-image: linear-gradient(to bottom right, rgb(173, 186, 248), rgb(62, 84, 246));
     overflow: scroll;
     color: #bdcefc;
 }
@@ -89,19 +90,23 @@ html, body {
 
 .slider-menu > li:hover > .drop > .drop-item {
     display: block;
+    /*text-align: center;*/
     margin-top: .5rem;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    transition: all ease .3s;
 }
 
 .slider-menu > li:hover > .drop > .drop-item:hover {
-    color: #ffffff;
     filter: none;
+    color: #ffffff;
 }
 
 .drop {
     margin-top: 10%;
     position: absolute;
     color: #bdcefc;
-    text-decoration: none;
     transition: all ease .3s;
 }
 
@@ -120,7 +125,7 @@ html, body {
 }
 
 .slider-menu > li > button:hover {
-    color: #ffffff;;
+    color: #ffffff;
     background-color: rgba(255, 255, 255, 0.074);
     box-shadow: none;
 }
