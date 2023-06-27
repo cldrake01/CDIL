@@ -89,7 +89,7 @@ html, body {
 
 .slider-menu > li:hover > .drop > .drop-item {
     display: block;
-    filter: blur(0.025rem);
+    margin-top: .5rem;
 }
 
 .slider-menu > li:hover > .drop > .drop-item:hover {
@@ -98,7 +98,6 @@ html, body {
 }
 
 .drop {
-    border-radius: 1rem;
     margin-top: 10%;
     position: absolute;
     color: #bdcefc;
