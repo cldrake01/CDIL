@@ -214,7 +214,7 @@ html, body {
     margin-top: 1rem;
     resize: none;
     font-family: 'Quicksand', sans-serif;
-    width: 96%;
+    width: 99%;
     height: fit-content;
     display: flex;
     align-items: center;
@@ -225,7 +225,8 @@ html, body {
     border-radius: 0.5rem;
     transition: all ease .3s;
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.25);
-    padding: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .container .box input:hover,
