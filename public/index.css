@@ -38,6 +38,10 @@ html, body {
     -webkit-backdrop-filter: blur(4px);
 }
 
+.header-bar:hover {
+
+}
+
 .header-bar > .logo {
     position: absolute;
     top: 2px;
@@ -65,21 +69,23 @@ html, body {
     padding: 14px;
     margin-left: 2px;
     font-family: 'Quicksand', sans-serif;
-    color: #bdcefc;
+    color: transparent;
     cursor: pointer;
     transition: 0.3s linear all;
     user-select: none;
 }
 
 .slider-menu > li > a {
-    color: #bdcefc;
+    color: #fffc;
+    /*color: #bdcefc;*/
     text-decoration: none;
     transition: all ease .3s;
 }
 
 .slider-menu > li > .drop a {
     display: none;
-    color: #bdcefc;
+    color: #fffc;
+    /*color: #bdcefc;*/
     text-decoration: none;
     transition: all ease .3s;
 }
