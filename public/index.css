@@ -305,7 +305,6 @@ html, body {
 
 }
 
-
 .animated {
     opacity: 0;
     transform: translateX(-100%);
