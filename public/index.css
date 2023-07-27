@@ -13,7 +13,7 @@ html, body {
     /*-webkit-background-image: linear-gradient(to bottom right, rgb(173, 186, 248), rgb(62, 84, 246));*/
     overflow: scroll;
     /*color: #bdcefc;*/
-    color: transparent;
+    color: rgb(2, 11, 33);
 }
 
 .header-container {
