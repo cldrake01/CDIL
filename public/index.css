@@ -79,7 +79,8 @@ html, body {
 
 .slider-menu > li > a {
     color: #fffc;
-    /*color: #bdcefc;*/
+    /*/*color: #bdcefc;*/
+    /*color: #ffffff;*/
     text-decoration: none;
     transition: all ease .3s;
 }
@@ -88,6 +89,7 @@ html, body {
     display: none;
     color: #fffc;
     /*color: #bdcefc;*/
+    /*color: #ffffff;*/
     text-decoration: none;
     transition: all ease .3s;
 }
@@ -114,7 +116,8 @@ html, body {
 .drop {
     margin-top: 10%;
     position: absolute;
-    color: #bdcefc;
+    /*color: #bdcefc;*/
+    color: #ffffff;
     transition: all ease .3s;
 }
 
@@ -124,7 +127,8 @@ html, body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #bdcefc;
+    /*color: #bdcefc;*/
+    color: #ffffff;
     background-color: transparent;
     border-color: transparent;
     border-radius: 0.5rem;
@@ -247,7 +251,8 @@ html, body {
 .container .box textarea::placeholder,
 .container .box input::-webkit-input-placeholder,
 .container .box textarea::-webkit-input-placeholder {
-    color: #bdcefc;
+    /*color: #bdcefc;*/
+    color: #ffffff;
     padding: 0.25rem;
 }
 
@@ -263,7 +268,8 @@ html, body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #bdcefc;
+    /*color: #bdcefc;*/
+    color: #ffffff;
     background-color: transparent;
     border-color: transparent;
     border-radius: 0.5rem;
@@ -271,7 +277,7 @@ html, body {
 }
 
 .container .box button:hover {
-    color: #ffffff;;
+    color: #ffffff;
     background-color: rgba(255, 255, 255, 0.074);
     box-shadow: none;
     transition: all ease .3s;
@@ -279,7 +285,7 @@ html, body {
 }
 
 .container .box div button:hover {
-    color: #ffffff;;
+    color: #ffffff;
     background-color: rgba(255, 255, 255, 0.074);
     box-shadow: none;
     transition: all ease .3s;
