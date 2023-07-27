@@ -317,11 +317,13 @@ html, body {
     opacity: 0;
     transform: translateX(-20%);
     transition: all 2s ease-in-out;
+    will-change: transform;
 }
 
 .animated-in {
     opacity: 1;
     transform: translateX(0);
+    will-change: transform;
 }
 
 @media(prefers-reduced-motion) {
